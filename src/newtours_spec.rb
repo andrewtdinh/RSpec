@@ -90,7 +90,7 @@ describe 'Newtours site' do
     expect(pageTitle).to be == 'Sign-on: Mercury Tours'
   end
 
-  it 'should not be able to sign into the site from the Sign-On page with wrong pass word' do
+  it 'should not be able to sign into the site from the Sign-On page with wrong password' do
     # click on Sign-On link
     @driver.find_element(:link, 'SIGN-ON').click
 
@@ -116,6 +116,18 @@ describe 'Newtours site' do
     # Type into the Username and Password fields:
     @driver.find_element(:name, 'userName').send_key 'Andrew'
     @driver.find_element(:name, 'password').send_key 'testtest'
+    @driver.find_element(:name, 'login').click
+
+    #Get and verify the page title after a 5-second wait
+    sleep(5)
+    pageTitle = @driver.title
+    expect(pageTitle).to be == 'Sign-on: Mercury Tours'
+  end
+
+  it 'should not be able to sign into the site from the Home page with wrong password' do
+    # Type into the Username and Password fields on the Home page:
+    @driver.find_element(:name, 'userName').send_key 'AndrewD'
+    @driver.find_element(:name, 'password').send_key 'wrongpwd'
     @driver.find_element(:name, 'login').click
 
     #Get and verify the page title after a 5-second wait
