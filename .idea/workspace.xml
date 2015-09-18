@@ -28,6 +28,7 @@
     <SUITE FILE_PATH="coverage/RSpecConcept@My_zoo_site_should_open_browser_and_click_on_contact__RSpecConcept.coverage" NAME="My zoo site should open browser and click on contact: RSpecConcept Coverage Results" MODIFIED="1441397324102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
     <SUITE FILE_PATH="coverage/RSpecConcept@Newtours_site_should_be_able_to_sign_into_the_site__RSpecConcept.coverage" NAME="Newtours site should be able to sign into the site: RSpecConcept Coverage Results" MODIFIED="1442099444009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
     <SUITE FILE_PATH="coverage/RSpecConcept@Newtours_site_should_be_able_to_sign_into_the_site_from_the_Home_page__RSpecConcept.coverage" NAME="Newtours site should be able to sign into the site from the Home page: RSpecConcept Coverage Results" MODIFIED="1442538254112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
+    <SUITE FILE_PATH="coverage/RSpecConcept@Newtours_site_should_be_able_to_sign_out_of_the_site_from_the_Flight_Finder_page__RSpecConcept.coverage" NAME="Newtours site should be able to sign out of the site from the Flight-Finder page: RSpecConcept Coverage Results" MODIFIED="1442539922298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -51,11 +52,12 @@
       <file leaf-file-name="newtours_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/newtours_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46779662">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.13559322">
+              <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
               <folding>
                 <element signature="e#665#921#0" expanded="false" />
                 <element signature="e#989#1621#0" expanded="false" />
+                <element signature="e#1686#2201#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -154,7 +156,7 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="RSpec.Newtours site should be able to sign into the site from the Home page: RSpecConcept">
+  <component name="RunManager" selected="RSpec.Newtours site should be able to sign out of the site from the Flight-Finder page: RSpecConcept">
     <configuration default="false" name="Newtours site should check the Sign-On link on Home lands on correct page: RSpecConcept" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="RSpecConcept" />
@@ -175,36 +177,6 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Newtours site should check the Sign-On link on Home lands on correct page" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Newtours site: RSpecConcept" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="RSpecConcept" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/src" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/src/newtours_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Newtours site" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -295,6 +267,36 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Newtours site should be able to sign into the site from the Home page" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Newtours site should be able to sign out of the site from the Flight-Finder page: RSpecConcept" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="RSpecConcept" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/src" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/src/newtours_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Newtours site should be able to sign out of the site from the Flight-Finder page" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -403,18 +405,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="RSpec.My zoo site should open browser and click on contact: RSpecConcept" />
       <item index="1" class="java.lang.String" itemvalue="RSpec.Newtours site should check the Sign-On link on Home lands on correct page: RSpecConcept" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Newtours site: RSpecConcept" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'newtours_spec': RSpecConcept" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Newtours site should be able to sign into the site: RSpecConcept" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.Newtours site should be able to sign into the site from the Home page: RSpecConcept" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'newtours_spec': RSpecConcept" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Newtours site should be able to sign into the site: RSpecConcept" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Newtours site should be able to sign into the site from the Home page: RSpecConcept" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.Newtours site should be able to sign out of the site from the Flight-Finder page: RSpecConcept" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Newtours site should be able to sign into the site from the Home page: RSpecConcept" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Newtours site should be able to sign into the site: RSpecConcept" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'newtours_spec': RSpecConcept" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Newtours site should check the Sign-On link on Home lands on correct page: RSpecConcept" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Newtours site: RSpecConcept" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Newtours site should be able to sign out of the site from the Flight-Finder page: RSpecConcept" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Newtours site should be able to sign into the site from the Home page: RSpecConcept" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Newtours site should be able to sign into the site: RSpecConcept" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'newtours_spec': RSpecConcept" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Newtours site should check the Sign-On link on Home lands on correct page: RSpecConcept" />
       </list>
     </recent_temporary>
   </component>
@@ -486,6 +488,7 @@
           <folding>
             <element signature="e#665#921#0" expanded="false" />
             <element signature="e#989#1621#0" expanded="false" />
+            <element signature="e#1686#2201#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -551,11 +554,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newtours_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46779662">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.13559322">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
           <folding>
             <element signature="e#665#921#0" expanded="false" />
             <element signature="e#989#1621#0" expanded="false" />
+            <element signature="e#1686#2201#0" expanded="false" />
           </folding>
         </state>
       </provider>
