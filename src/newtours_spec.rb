@@ -44,6 +44,20 @@ describe 'Newtours site' do
     #Get and verify the page title
     pageTitle = @driver.title
     expect(pageTitle).to be == 'Find a Flight: Mercury Tours:'
+  end
+
+  it 'should be able to sign into the site from the Home page' do
+    # Type into the Username and Password fields on the Home page:
+    @driver.find_element(:name, 'userName').send_key 'AndrewD'
+    @driver.find_element(:name, 'password').send_key 'testtest'
+    @driver.find_element(:name, 'login').click
+
+    #wait until the ITINERARY link is displayed, then check the page title
+    @wait.until { @driver.find_element(:link, 'ITINERARY')}
+
+    #Get and verify the page title
+    pageTitle = @driver.title
+    expect(pageTitle).to be == 'Find a Flight: Mercury Tours:'
 
   end
 
