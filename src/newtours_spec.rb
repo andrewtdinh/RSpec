@@ -28,9 +28,6 @@ describe 'Newtours site' do
   end
 
   it 'should be able to sign into the site from the Sign-On page' do
-    # Set wait time to 10 seconds
-    # wait = Selenium::WebDriver::Wait.new(:timeout => 10)
-
     # click on Sign-On link
     @driver.find_element(:link, 'SIGN-ON').click
 
