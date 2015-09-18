@@ -27,7 +27,7 @@ describe 'Newtours site' do
     expect(pageTitle).to be == 'Sign-on: Mercury Tours'
   end
 
-  it 'should be able to sign into the site' do
+  it 'should be able to sign into the site from the Sign-On page' do
     # Set wait time to 10 seconds
     # wait = Selenium::WebDriver::Wait.new(:timeout => 10)
 
