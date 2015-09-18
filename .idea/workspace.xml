@@ -30,7 +30,7 @@
     <SUITE FILE_PATH="coverage/RSpecConcept@My_Very_First_Rspec_Test_Class__RSpecConcept.coverage" NAME="My Very First Rspec Test Class: RSpecConcept Coverage Results" MODIFIED="1441238315726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
     <SUITE FILE_PATH="coverage/RSpecConcept@My_zoo_site_should_open_browser_and_click_on_contact__RSpecConcept.coverage" NAME="My zoo site should open browser and click on contact: RSpecConcept Coverage Results" MODIFIED="1441397324102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
     <SUITE FILE_PATH="coverage/RSpecConcept@Newtours_site_should_be_able_to_sign_into_the_site__RSpecConcept.coverage" NAME="Newtours site should be able to sign into the site: RSpecConcept Coverage Results" MODIFIED="1442099444009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
-    <SUITE FILE_PATH="coverage/RSpecConcept@Newtours_site_should_be_able_to_sign_into_the_site_from_the_Find_A_Flight_page__RSpecConcept.coverage" NAME="Newtours site should be able to sign into the site from the Find-A-Flight page: RSpecConcept Coverage Results" MODIFIED="1442606355188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
+    <SUITE FILE_PATH="coverage/RSpecConcept@Newtours_site_should_be_able_to_sign_into_the_site_from_the_Find_A_Flight_page__RSpecConcept.coverage" NAME="Newtours site should be able to sign into the site from the Find-A-Flight page: RSpecConcept Coverage Results" MODIFIED="1442607397963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
     <SUITE FILE_PATH="coverage/RSpecConcept@Newtours_site_should_be_able_to_sign_into_the_site_from_the_Home_page__RSpecConcept.coverage" NAME="Newtours site should be able to sign into the site from the Home page: RSpecConcept Coverage Results" MODIFIED="1442538254112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
     <SUITE FILE_PATH="coverage/RSpecConcept@Newtours_site_should_be_able_to_sign_out_of_the_site_from_the_Flight_Finder_page__RSpecConcept.coverage" NAME="Newtours site should be able to sign out of the site from the Flight-Finder page: RSpecConcept Coverage Results" MODIFIED="1442539922298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
     <SUITE FILE_PATH="coverage/RSpecConcept@Newtours_site_should_not_be_able_to_sign_into_the_site_from_the_Sign_On_page_with_wrong_username__RSpecConcept.coverage" NAME="Newtours site should not be able to sign into the site from the Sign-On page with wrong username: RSpecConcept Coverage Results" MODIFIED="1442599377845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" MODULE_NAME="RSpecConcept" />
@@ -47,12 +47,19 @@
       <file leaf-file-name="newtours_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/newtours_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38305086">
-              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+            <state vertical-scroll-proportion="-0.2677966">
+              <caret line="63" column="72" selection-start-line="63" selection-start-column="72" selection-end-line="63" selection-end-column="72" />
               <folding>
                 <element signature="e#90#596#0" expanded="false" />
                 <element signature="e#665#921#0" expanded="false" />
                 <element signature="e#989#1621#0" expanded="false" />
+                <element signature="e#1686#2201#0" expanded="false" />
+                <element signature="e#2275#4380#0" expanded="false" />
+                <element signature="e#4456#5423#0" expanded="false" />
+                <element signature="e#5515#6041#0" expanded="false" />
+                <element signature="e#6133#6656#0" expanded="false" />
+                <element signature="e#6745#7151#0" expanded="false" />
+                <element signature="e#7240#7645#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -484,6 +491,13 @@
             <element signature="e#90#596#0" expanded="false" />
             <element signature="e#665#921#0" expanded="false" />
             <element signature="e#989#1621#0" expanded="false" />
+            <element signature="e#1686#2201#0" expanded="false" />
+            <element signature="e#2275#4380#0" expanded="false" />
+            <element signature="e#4456#5423#0" expanded="false" />
+            <element signature="e#5515#6041#0" expanded="false" />
+            <element signature="e#6133#6656#0" expanded="false" />
+            <element signature="e#6745#7151#0" expanded="false" />
+            <element signature="e#7240#7645#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,12 +563,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newtours_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38305086">
-          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        <state vertical-scroll-proportion="-0.2677966">
+          <caret line="63" column="72" selection-start-line="63" selection-start-column="72" selection-end-line="63" selection-end-column="72" />
           <folding>
             <element signature="e#90#596#0" expanded="false" />
             <element signature="e#665#921#0" expanded="false" />
             <element signature="e#989#1621#0" expanded="false" />
+            <element signature="e#1686#2201#0" expanded="false" />
+            <element signature="e#2275#4380#0" expanded="false" />
+            <element signature="e#4456#5423#0" expanded="false" />
+            <element signature="e#5515#6041#0" expanded="false" />
+            <element signature="e#6133#6656#0" expanded="false" />
+            <element signature="e#6745#7151#0" expanded="false" />
+            <element signature="e#7240#7645#0" expanded="false" />
           </folding>
         </state>
       </provider>

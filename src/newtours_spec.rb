@@ -62,7 +62,7 @@ describe 'Newtours site' do
   end
 
   it 'should be able to sign into the site from the Find-A-Flight page' do
-    if !(@driver.find_elements(:link, 'SIGN-OFF').displayed?)
+    if @driver.find_elements(:link, 'SIGN-OFF').empty?
       # Click on the Flights link and wait until the Flight finder page is loaded
       @driver.find_element(:link, 'Flights').click
       @wait.until { @driver.find_element(:link, 'Register here')}
