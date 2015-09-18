@@ -61,6 +61,53 @@ describe 'Newtours site' do
 
   end
 
+  it 'should be able to sign into the site from the Find-A-Flight page' do
+    if !(@driver.find_elements(:link, 'SIGN-OFF').displayed?)
+      # Click on the Flights link and wait until the Flight finder page is loaded
+      @driver.find_element(:link, 'Flights').click
+      @wait.until { @driver.find_element(:link, 'Register here')}
+      # Verify that we are on the Flight-Finder page
+      expect(@driver.title).to be == 'Welcome: Mercury Tours'
+      # Type into the Username and Password fields on the Flight Finder page:
+      @driver.find_element(:name, 'userName').send_key 'AndrewD'
+      @driver.find_element(:name, 'password').send_key 'testtest'
+      @driver.find_element(:name, 'login').click
+
+      #wait until the ITINERARY link is displayed, then check the page title
+      @wait.until { @driver.find_element(:link, 'ITINERARY')}
+
+      #Get and verify the page title
+      pageTitle = @driver.title
+      expect(pageTitle).to be == 'Find a Flight: Mercury Tours:'
+
+      #Click to signout
+      @driver.find_element(:link, 'SIGN-OFF').click
+    else
+      #Click to signout
+      @driver.find_element(:link, 'SIGN-OFF').click
+      #Wait until the SIGN-ON link is found, then click on the Flights link and wait until the Flight finder page is loaded
+      @wait.until {@driver.find_element(:link, 'SIGN-ON')}
+      @driver.find_element(:link, 'Flights').click
+      @wait.until { @driver.find_element(:link, 'Register here')}
+      # Verify that we are on the Flight-Finder page
+      expect(@driver.title).to be == 'Welcome: Mercury Tours'
+      # Type into the Username and Password fields on the Flight Finder page:
+      @driver.find_element(:name, 'userName').send_key 'AndrewD'
+      @driver.find_element(:name, 'password').send_key 'testtest'
+      @driver.find_element(:name, 'login').click
+
+      #wait until the ITINERARY link is displayed, then check the page title
+      @wait.until { @driver.find_element(:link, 'ITINERARY')}
+
+      #Get and verify the page title
+      pageTitle = @driver.title
+      expect(pageTitle).to be == 'Find a Flight: Mercury Tours:'
+
+      #Click to signout
+      @driver.find_element(:link, 'SIGN-OFF').click
+    end
+  end
+
   it 'should be able to sign out of the site from the Flight-Finder page' do
     # click on Sign-On link
     @driver.find_element(:link, 'SIGN-ON').click
